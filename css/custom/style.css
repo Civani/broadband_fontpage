@@ -1,0 +1,145 @@
+.affordable_pricing {
+	text-align: center;
+	margin-top: 74px;
+	padding-bottom: 86px;
+}
+.affordable_pricing h2,
+.pricing_who_we h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.625em;
+	color: #323232;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 13px;
+}
+.affordable_pricing h2:before,
+.pricing_who_we h2:before {
+	content: '';
+	width:45px;
+	height:3px;
+	background: #4d7df0;
+	position: absolute;
+	bottom:0;
+	left:42%;
+}
+.affordable_pricing p {
+	font-size: 0.875em;
+	color: #898989;
+	line-height: 25px;
+	padding-top: 33px;
+}
+.affordable_pricing i {
+	width:86px;
+	height:86px;
+	border:1px solid #eaeaea;
+	border-radius: 50%;
+	color: #1cbac8;
+	font-size: 2.5em;
+    padding: 25px;
+}
+.affordable_pricing a{
+	display: block;
+	font-size: 1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 26px;
+    margin-bottom: -18px;
+    letter-spacing: 1.6px;
+}
+/*============= Pricing page/ who we are================*/
+
+.pricing_who_we {
+	background: #f0f0f0;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+.pricing_who_we .pricing_category {
+	background: #fff;
+	width:270px;
+	margin: 39px 15px 0 15px;
+	padding-bottom: 25px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.pricing_who_we .pricing_category h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #313131;
+	margin-top: 33px;
+    margin-bottom: 15px;
+}
+.pricing_who_we .pricing_category p {
+	
+	height:96px;
+	border-radius: 50%;
+	background: #4d7df0;
+	color:#fff;
+	font-size: 0.8125em;
+	margin:0 auto;
+	padding: 29px;
+    line-height: 18px;
+}
+.pricing_who_we .pricing_category p span {
+	font-weight: 700;
+	font-size: 2.3em;
+}
+.pricing_who_we .pricing_category p sup {
+	top:-0.7em;
+	font-size: 100%;
+}
+.pricing_who_we .pricing_category ul {
+	margin-top:24px;
+}
+.pricing_who_we .pricing_category ul li {
+	font-size: 0.875em;
+	color: #898989;
+	margin-bottom: 20px;
+    letter-spacing: 0.4px;
+}
+.pricing_who_we .pricing_category a {
+	display: inline-block;
+	font-size: 0.8125em;
+	color: #969595;
+	text-transform: uppercase;
+	background: #212832;
+	margin-top: 23px;
+    padding: 0px 17px 0 16px;
+    letter-spacing: 0.9px;
+    line-height: 42px;
+}
+.pricing_who_we .pricing_category:hover,
+.pricing_who_we .pricing_category:focus,
+.pricing_who_we .pricing_category:active {
+	background: #212832;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 20px 59px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 20px 59px -12px rgba(0,0,0,0.75);
+	box-shadow: 0px 20px 59px -12px rgba(0,0,0,0.75);
+}
+.pricing_who_we .pricing_category:hover h4,
+.pricing_who_we .pricing_category:focus h4,
+.pricing_who_we .pricing_category:active h4 {
+	color: #fff;
+}
+.pricing_who_we .pricing_category:hover p,
+.pricing_who_we .pricing_category:focus p,
+.pricing_who_we .pricing_category:active p {
+	background: #fff;
+	color: #12a0b1;
+}
+.pricing_who_we .pricing_category:hover ul li,
+.pricing_who_we .pricing_category:focus ul li,
+.pricing_who_we .pricing_category:active ul li {
+	color: rgba(255, 255, 255, 0.5);
+}
+.pricing_who_we .pricing_category:hover a,
+.pricing_who_we .pricing_category:focus a,
+.pricing_who_we .pricing_category:active a {
+	background: #12a0b1;
+	color: #fff;
+}
+
